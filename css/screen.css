@@ -605,6 +605,7 @@ a:focus {
 }
 
 .c-early-access__submit {
+    position: relative;
     width: 15%;
     height: 100%;
     cursor: pointer;
@@ -615,10 +616,25 @@ a:focus {
     text-align: center;
 }
 
-.c-early-access__submit > p {
+.c-early-access__submit::after {
+    position: absolute;
+    content: ">";
+    font-size: 1.6em;
+    transform-origin: center;
+    color: #fff;
+    left: calc(50% - 0.4em);
+    bottom: 0.1em;
+    transition: all 0.5s ease-in-out;
+}
+
+.c-early-access__submit:hover::after {
+    transform: rotate(360deg);
+}
+
+/* .c-early-access__submit > p {
     font-size: x-large;
     margin: auto 0;
-}
+} */
 
 /* ///////////////////////////////////////////////////// */
 
