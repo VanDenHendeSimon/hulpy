@@ -244,7 +244,7 @@ a:focus {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
     .o-container {
         max-width: 926px;
     }
@@ -475,7 +475,7 @@ a:focus {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
 
     .c-header {
         margin: 24px auto;
@@ -565,7 +565,7 @@ a:focus {
     display: none;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
     .c-explenation__figure {
         display: block;
     }
@@ -586,7 +586,7 @@ a:focus {
     margin-bottom: 72px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
     .c-content-top {
         margin-bottom: 0;
     }
@@ -718,7 +718,7 @@ a:focus {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
 
     .u-max-width-header {
         width: 926px !important;
@@ -901,7 +901,7 @@ a:focus {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
     .u-1-of-2-bp4 {
         flex-basis: calc(100% / 2) !important;
     }
