@@ -464,9 +464,13 @@ a:focus {
     align-items: center;
 }
 
-.c-header__logo {
+.c-logo {
     height: 1.5em;
     cursor: pointer;
+}
+
+.c-footer__logo > .c-logo {
+    text-align: center;
 }
 
 .c-header__nav {
